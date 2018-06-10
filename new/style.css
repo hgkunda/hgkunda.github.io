@@ -1,0 +1,38 @@
+* {
+  font-family: "Roboto", serif;
+}
+
+/* my colors */
+.dark-salmon {
+  color: #E9A666;
+}
+
+.dark-olive-grn {
+  color: #4D5824;
+}
+
+.light-steel-blu {
+  color: #9DC15D;
+}
+
+.powder-blu {
+  color: #CBE5EF;
+}
+
+.dark-khaki {
+  color: #A09444;
+}
+
+/* body {
+      background-color: #c1c943;
+      background-image: -webkit-linear-gradient(to bottom, #E6F8AB, #66810B);
+      background-image: -o-linear-gradient(to bottom, #E6F8AB, #66810B);
+      background-image: -moz-linear-gradient(to bottom, #E6F8AB, #66810B);
+      background-image: linear-gradient(to bottom, #E6F8AB, #66810B);
+      background-repeat: no-repeat;
+      font-size: 100%;
+    } */
+
+  #container {
+    background-color: #fff;
+  }
