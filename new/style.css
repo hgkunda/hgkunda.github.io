@@ -36,3 +36,12 @@
   #container {
     background-color: #fff;
   }
+
+  .jumbotron {
+    text-align: center;
+  }
+
+  .jumbotron p {
+    /* margin: 0 auto; */
+    /* background-color: #000; */
+  }
