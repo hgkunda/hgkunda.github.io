@@ -1,8 +1,23 @@
-* {
-  font-family: "Roboto", serif;
+h1 {
+  font-family: "Overpass", sans-serif;
 }
 
-/* my colors */
+p {
+  font-family: "Linden Hill", serif;
+}
+
+header {
+  background-color: #0C090A;
+  color: #FFF;
+}
+header h1 {
+  text-align: center;
+  padding: 2rem;
+  letter-spacing: .3rem;
+  font-variant: small-caps;
+}
+
+/* my colors palette 1 */
 .dark-salmon {
   color: #E9A666;
 }
@@ -21,6 +36,23 @@
 
 .dark-khaki {
   color: #A09444;
+}
+
+/* my colors palette 2 */
+.old-rose {
+  color: #A6464E;
+}
+
+.black {
+  color: #0C090A;
+}
+
+.tan {
+  color: #CFAEA1;
+}
+
+.grey {
+  color: #8D916C;
 }
 
 /* body {
