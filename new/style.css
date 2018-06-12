@@ -41,18 +41,27 @@ header h1 {
 /* my colors palette 2 */
 .old-rose {
   color: #A6464E;
+  background-color: #A6464E;
 }
 
 .black {
   color: #0C090A;
+  background-color: #0C090A;
 }
 
 .tan {
   color: #CFAEA1;
+  background-color: #CFAEA1;
 }
 
-.grey {
+.gray {
   color: #8D916C;
+  background-color: #8D916C;
+}
+
+.dark-olive-green {
+  color: #705142;
+  background-color: #705142;
 }
 
 /* body {
@@ -78,6 +87,13 @@ header h1 {
     /* background-color: #000; */
   }
 
-  #projects {
+  #projects p {
     text-align: center;
+    font-size: 1.4em;
+  }
+
+  #projects img {
+    padding: 1em;
+    background-color: #A6464E;
+    border-radius: 50%;
   }
