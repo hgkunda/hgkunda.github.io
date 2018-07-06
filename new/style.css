@@ -87,6 +87,11 @@ header h1 {
     /* background-color: #000; */
   }
 
+  #projects {
+    display: flex;
+    flex-direction: row;
+  }
+
   #projects p {
     text-align: center;
     font-size: 1.4em;
