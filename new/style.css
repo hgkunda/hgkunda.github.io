@@ -20,6 +20,7 @@ header h1 {
 /* my colors palette 1 */
 .dark-salmon {
   color: #E9A666;
+  background-color: #E9A666;
 }
 
 .dark-olive-grn {
@@ -78,7 +79,7 @@ header h1 {
     background-color: #fff;
   }
 
-  .jumbotron {
+  .big-box {
     text-align: center;
   }
 
