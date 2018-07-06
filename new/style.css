@@ -87,9 +87,16 @@ header h1 {
     /* background-color: #000; */
   }
 
-  #projects {
+  .rows {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .center-align {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
   }
 
   #projects p {
