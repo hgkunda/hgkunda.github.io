@@ -126,5 +126,13 @@ header h1 {
   }
 
   .blk {
-    background-color: #000000;
+    background-color: #0C090A;
   }
+
+  .blk p {
+    color: #FFF;
+  }
+
+.bd-white {
+  border-top: solid 1em #FFFFFF;
+}
