@@ -120,3 +120,11 @@ header h1 {
   header img {
     float: right;
   }
+
+  #prof {
+    float: right;
+  }
+
+  .blk {
+    background-color: #000000;
+  }
