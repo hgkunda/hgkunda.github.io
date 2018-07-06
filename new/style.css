@@ -110,3 +110,9 @@ header h1 {
     background-color: #A6464E;
     border-radius: 50%;
   }
+
+  #initial-tag {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: .5em;
+  }
