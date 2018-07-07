@@ -72,10 +72,10 @@ header h1 {
 
 .gry-fade {
       background-color: #b0b0b0;
-      background-image: -webkit-linear-gradient(to bottom, #C3C1C2, #0C090A);
-      background-image: -o-linear-gradient(to bottom, #C3C1C2, #0C090A);
-      background-image: -moz-linear-gradient(to bottom, #C3C1C2, #0C090A);
-      background-image: linear-gradient(to bottom, #C3C1C2, #0C090A);
+      background-image: -webkit-linear-gradient(to left, #C3C1C2, #0C090A);
+      background-image: -o-linear-gradient(to left, #C3C1C2, #0C090A);
+      background-image: -moz-linear-gradient(to left, #C3C1C2, #0C090A);
+      background-image: linear-gradient(to left, #C3C1C2, #0C090A);
       background-repeat: no-repeat;
       font-size: 100%;
     }
