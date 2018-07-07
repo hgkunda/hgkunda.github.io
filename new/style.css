@@ -112,8 +112,9 @@ header h1 {
 
   #projects img {
     padding: 1em;
-    background-color: #A6464E;
+    /* background-color: #A6464E; */
     border-radius: 50%;
+    border: .5em solid #b0b0b0;
   }
 
   #about p {
@@ -132,6 +133,7 @@ header h1 {
 
   #prof {
     float: right;
+    /* margin-right: 0px; */
   }
 
   .blk {
