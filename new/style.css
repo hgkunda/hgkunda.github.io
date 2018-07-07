@@ -70,15 +70,15 @@ header h1 {
   background-color: #705142;
 }
 
-/* body {
-      background-color: #c1c943;
-      background-image: -webkit-linear-gradient(to bottom, #E6F8AB, #66810B);
-      background-image: -o-linear-gradient(to bottom, #E6F8AB, #66810B);
-      background-image: -moz-linear-gradient(to bottom, #E6F8AB, #66810B);
-      background-image: linear-gradient(to bottom, #E6F8AB, #66810B);
+.gry-fade {
+      background-color: #b0b0b0;
+      background-image: -webkit-linear-gradient(to bottom, #C3C1C2, #0C090A);
+      background-image: -o-linear-gradient(to bottom, #C3C1C2, #0C090A);
+      background-image: -moz-linear-gradient(to bottom, #C3C1C2, #0C090A);
+      background-image: linear-gradient(to bottom, #C3C1C2, #0C090A);
       background-repeat: no-repeat;
       font-size: 100%;
-    } */
+    }
 
   #container {
     background-color: #fff;
