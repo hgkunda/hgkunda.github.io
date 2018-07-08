@@ -92,6 +92,10 @@ header h1 {
     text-align: center;
   }
 
+  img {
+    max-width: 100%;
+  }
+
   .jumbotron p {
     /* margin: 0 auto; */
     /* background-color: #000; */
