@@ -111,8 +111,7 @@ img {
 }
 
 .slider {
-  color: white;
-  font-size: 20px;
+  color: #FFFFFF;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -123,10 +122,9 @@ img {
 
 .slide-text {
   color: #0C090A;
-  font-size: 20px;
   position: absolute;
-  top: 50%;
-  left: 5%;
+  top: 20%;
+  left: 10%;
   transform: translate(0%, -50%);
   -ms-transform: translate(0%, -50%);
   /* white-space: nowrap; */
