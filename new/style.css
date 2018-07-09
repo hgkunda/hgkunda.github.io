@@ -164,9 +164,9 @@ a:visited {
       font-size: 100%;
     }
 @media (max-width: 400px) {
-  .col-md-6 .col-sm-12 .gry-fade {
+  .col-sm-12 {
     padding-right: 0px;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 
 #prof {
