@@ -136,8 +136,9 @@ a:visited {
 .slide-text {
   color: #0C090A;
   position: absolute;
-  top: 20%;
-  left: 10%;
+  text-align: center;
+  top: 50%;
+  left: 20%;
   transform: translate(0%, -50%);
   -ms-transform: translate(0%, -50%);
   /* white-space: nowrap; */
@@ -185,6 +186,16 @@ a:visited {
     font-variant: small-caps;
   }
 
+  .dev {
+    font-family: 'Taviraj', serif;
+    font-weight: 100;
+  }
+
+  .des {
+    font-family: 'Taviraj', serif;
+    font-weight: 600;
+    font-style: italic;
+  }
   .jumbotron p {
     /* margin: 0 auto; */
     /* background-color: #000; */
