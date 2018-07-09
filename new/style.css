@@ -171,7 +171,7 @@ header h1 {
 
 .profile-slide {
   position: relative;
-  background-color: black;
+  background-color: #0C090A;
 }
 
 .overlay {
@@ -179,7 +179,7 @@ header h1 {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: green;
+  background-color: #FFFFFF;
   overflow: hidden;
   width: 0;
   height: 100%;
@@ -205,7 +205,7 @@ header h1 {
 }
 
 .slide-text {
-  color: white;
+  color: #0C090A;
   font-size: 20px;
   position: absolute;
   top: 50%;
