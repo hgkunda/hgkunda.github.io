@@ -22,6 +22,10 @@ header h1 {
   font-variant: small-caps;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* my colors palette 1 */
 .dark-salmon {
   color: #E9A666;
@@ -69,6 +73,68 @@ header h1 {
   color: #705142;
   background-color: #705142;
 }
+/* @media (max-width: 1000px) {
+#about .profile-slide, .hideaway-slide img {
+  display: none;
+}
+} */
+
+/* SLIDER PROF */
+@media (min-width: 1200px) {
+
+.profile-slide {
+  display: block;
+  position: relative;
+  background-color: #0C090A;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.profile-slide:hover .overlay {
+  width: 100%;
+}
+.profile-slide:hover .overlay img {
+  float: right;
+}
+
+.slider {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  /* white-space: nowrap; */
+}
+
+.slide-text {
+  color: #0C090A;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  /* white-space: nowrap; */
+}
+}
+
+@media (max-width: 1200px) {
+#about .profile-slide, .hideaway-slide img {
+  display: none;
+}
+}
 
 .gry-fade {
       background-color: #b0b0b0;
@@ -90,10 +156,6 @@ header h1 {
 
   .big-box {
     text-align: center;
-  }
-
-  img {
-    max-width: 100%;
   }
 
   h2 {
@@ -164,53 +226,4 @@ header h1 {
 
 .bd-white {
   border-top: solid 1em #FFFFFF;
-}
-
-
-/* SLIDER PROF */
-
-.profile-slide {
-  position: relative;
-  background-color: #0C090A;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #FFFFFF;
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease;
-}
-
-.profile-slide:hover .overlay {
-  width: 100%;
-}
-.profile-slide:hover .overlay img {
-  float: right;
-}
-
-.slider {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(0%, -50%);
-  -ms-transform: translate(0%, -50%);
-  /* white-space: nowrap; */
-}
-
-.slide-text {
-  color: #0C090A;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 5%;
-  transform: translate(0%, -50%);
-  -ms-transform: translate(0%, -50%);
-  /* white-space: nowrap; */
 }
