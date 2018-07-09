@@ -187,14 +187,17 @@ a:visited {
   }
 
   .dev {
-    font-family: 'Taviraj', serif;
     font-weight: 100;
   }
 
   .des {
-    font-family: 'Taviraj', serif;
     font-weight: 600;
     font-style: italic;
+  }
+
+  .dev, .des {
+    font-family: 'Taviraj', serif;
+    font-size: 4em;
   }
   .jumbotron p {
     /* margin: 0 auto; */
@@ -260,4 +263,8 @@ a:visited {
 
 .bd-white {
   border-top: solid 1em #FFFFFF;
+}
+
+body {
+  margin: auto;
 }
