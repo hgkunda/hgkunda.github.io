@@ -26,6 +26,19 @@ img {
   max-width: 100%;
 }
 
+a {
+  color: #A6464E;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #E9A666;
+}
+
+a:visited {
+  color: #8D916C;
+}
+
 /* my colors palette 1 */
 .dark-salmon {
   color: #E9A666;
@@ -100,7 +113,7 @@ img {
   overflow: hidden;
   width: 0;
   height: 100%;
-  transition: .5s ease;
+  transition: 1s ease;
 }
 
 .profile-slide:hover .overlay {
