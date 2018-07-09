@@ -82,6 +82,9 @@ img {
 /* SLIDER PROF */
 @media (min-width: 1200px) {
 
+#about .profile {
+  display: none;
+}
 .profile-slide {
   display: block;
   position: relative;
