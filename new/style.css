@@ -252,7 +252,7 @@ a:visited {
   }
 
   header img {
-    float: right;
+    /* float: right; */
   }
 
   #prof {
