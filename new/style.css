@@ -403,3 +403,8 @@ hr {
 	text-align:center;
 	font-size:80%;
 	}
+
+header img {
+  /* background-color: #FFFFFF; */
+  margin:5px;
+}
