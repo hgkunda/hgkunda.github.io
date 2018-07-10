@@ -3,3 +3,11 @@ let $ = function(id) {
 	window.onload = calculateMpg;
 	return document.getElementById(id);
 };
+
+
+
+$(document).ready(function(){
+  $('.old-proj').slick({
+    // setting-name: setting-value
+  });
+});
