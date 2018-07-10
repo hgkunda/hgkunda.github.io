@@ -218,6 +218,10 @@ a:visited {
     border: .5em solid #b0b0b0;
   }
 
+  #old-projects img {
+    border-radius: 0%;
+  }
+
   #about p {
     padding: 1em;
   }
