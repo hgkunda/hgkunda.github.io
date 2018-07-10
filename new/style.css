@@ -263,9 +263,21 @@ nav ul {
   display: flex;
   justify-content: flex-start;
   list-style: none;
+  /* align-content: space-between; */
 }
 
 nav a {
   color: #FFFFFF;
   font-family: "Overpass", sans-serif;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #DDDDDD;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #CCCCCC;
+  text-decoration: none;
 }
