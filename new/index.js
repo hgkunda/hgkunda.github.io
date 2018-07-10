@@ -1,8 +1,8 @@
 
 $(document).ready(function(){
 
-$('.slickcaro').slick({
-ltr: true
+$('.slickcaro').slick();
+// ltr: true
   // dots: true,
   // infinite: false,
   // speed: 300,
@@ -36,5 +36,5 @@ ltr: true
     // settings: "unslick"
     // instead of a settings object
   // ]
-});
+// });
 });

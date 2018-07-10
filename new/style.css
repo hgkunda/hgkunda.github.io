@@ -220,11 +220,25 @@ a:visited {
 
   #old-proj img {
     border-radius: 0%;
+    border: none;
   }
-.slickcaro
+/* .slickcaro  */
   #about p {
     padding: 1em;
   }
+
+  .slide {
+  position: relative;
+}
+
+.caption {
+  bottom: 0;
+  min-height: 80px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
 
   #initial-tag {
     background-color: #FFFFFF;
