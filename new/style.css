@@ -199,22 +199,13 @@ a:visited {
     font-family: 'Taviraj', serif;
     font-size: 4em;
   }
-  .jumbotron p {
-    /* margin: 0 auto; */
-    /* background-color: #000; */
-  }
-
-  /* .rows {
-    display: flex;
-    flex-wrap: wrap;
-  }
 
   .center-align {
     display: flex;
     align-content: center;
     align-items: center;
     justify-content: space-between;
-  } */
+  }
 
   #projects p {
     text-align: center;
@@ -223,7 +214,6 @@ a:visited {
 
   #projects img {
     padding: 1em;
-    /* background-color: #A6464E; */
     border-radius: 50%;
     border: .5em solid #b0b0b0;
   }
@@ -266,5 +256,5 @@ a:visited {
 }
 
 body {
-  margin: auto;
+  margin: 8px;
 }
