@@ -17,7 +17,7 @@ header {
 }
 header h1 {
   text-align: center;
-  padding: 2rem;
+  /* padding: 2rem; */
   letter-spacing: .3rem;
   /* font-variant: small-caps; */
 }
@@ -168,10 +168,15 @@ a:visited {
   .col-sm-12 {
     padding-right: 0px;
     /* background-color: #fff; */
-}
+  }
 
-#resume {
-  padding: 0 1em;
+/* #prof img{
+  float: none;
+} */
+
+
+.gry-fade {
+  /* background-image: none; */
 }
 }
   #container {
@@ -251,9 +256,17 @@ a:visited {
   }
 
   #prof {
-    float: right;
+    /* float: right; */
     /* margin-right: 0px; */
   }
+
+  @media (min-width: 350px) {
+
+
+  #prof {
+    float: right;
+  }
+}
 
   .blk {
     background-color: #0C090A;
