@@ -258,3 +258,14 @@ a:visited {
 body {
   margin: 8px;
 }
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+nav a {
+  color: #FFFFFF;
+  font-family: "Overpass", sans-serif;
+}
