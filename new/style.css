@@ -408,3 +408,14 @@ header img {
   /* background-color: #FFFFFF; */
   margin:5px;
 }
+
+.slickautoplay {
+  background-color: #0C090A;
+  color: #FFFFFF;
+}
+
+.slickautoplay p {
+  color: #FFFFFF;
+  padding:.5em;
+  font-family: "Overpass", sans-serif;
+}
