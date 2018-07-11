@@ -88,11 +88,7 @@ a:visited {
   color: #705142;
   background-color: #705142;
 }
-/* @media (max-width: 1000px) {
-#about .profile-slide, .hideaway-slide img {
-  display: none;
-}
-} */
+
 
 /* SLIDER PROF */
 @media (min-width: 1200px) {
@@ -190,7 +186,7 @@ a:visited {
   }
 
   h2 {
-    font-variant: small-caps;
+    /* font-variant: small-caps; */
   }
 
   .dev {
