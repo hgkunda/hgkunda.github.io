@@ -1,5 +1,6 @@
 * {
-  font-family: "Linden Hill", serif;
+  font-family: 'Suravaram', serif;
+  /* font-family: "Linden Hill", serif; */
 }
 
 h1, h2, h3 {
@@ -7,7 +8,8 @@ h1, h2, h3 {
 }
 
 p {
-  font-family: "Linden Hill", serif;
+  font-family: 'Suravaram', serif;
+  /* font-family: "Linden Hill", serif; */
   color: #0C090A;
 }
 
@@ -411,11 +413,12 @@ header img {
 
 .slickautoplay {
   background-color: #0C090A;
-  color: #FFFFFF;
+  /* color: #FFFFFF; */
 }
 
 .slickautoplay p {
   color: #FFFFFF;
   padding:.5em;
-  font-family: "Overpass", sans-serif;
+  font-size: 1.3em;
+  /* font-family: "Overpass", sans-serif; */
 }
