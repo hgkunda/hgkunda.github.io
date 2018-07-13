@@ -12,16 +12,28 @@
     <link href="https://fonts.googleapis.com/css?family=Suravaram" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Taviraj:100,400,600i" rel="stylesheet">
     <style>
+    #resume a {
+      font-variant: small-caps;
+      font-size: 1em;
+    }
+     #resume h1, #resume a,#resume p,#resume li {
+      /* font-size: 1em; */
+    }
+    .nowrap {
+      flex-wrap: nowrap;
+    }
 
-      #resume p {
-        font-size: 1.5em;
+    @media screen (min-width: 900:px) {}
+
+      #resume p, #resume li {
+        /* font-size: 1.5em; */
       }
 
       #resume a {
         font-variant: small-caps;
-        font-size: 2em;
+        /* font-size: 2em; */
       }
-
+}
 
     </style>
   </head>
@@ -46,8 +58,10 @@
 
             <!-- computer skills section -->
 
-            <div class="row">
-              <div class="col-sm-12">
+            <div class="row nowrap">
+              <div class="col-sm-1">
+                <a href="#qual"><img src="img/arrow-btn.png" alt="arrow button"></a></div>
+              <div class="col-sm-11">
 
     <!-- <h2>COMPUTER SKILLS</h2> -->
     <h1>Computer Skills</h1>
@@ -57,7 +71,8 @@
     </div>
 
               <div class="row">
-                <div class="col-md-6 col-sm-12">
+
+                <div class="col-md-5 col-sm-11">
                   <img src="img/skill-wordart.png" alt="word art image of computer skills">
                 </div>
               <div class="col-md-6 col-sm-12">
@@ -75,11 +90,13 @@
                 </ul>
               </div>
             </div>
-            <div class="row">
-              <div class="col-sm-12">
+            <div class="row nowrap">
+              <div class="col-sm-1">
+                <img src="img/arrow-btn.png" alt="arrow button" href="#edu"></div>
+              <div class="col-sm-11">
 
                           <!-- <h2>ADDTIONAL QUALITIES</h2> -->
-                          <h1>Additional Qualities</h1>
+                          <h1 id="qual">Additional Qualities</h1>
     </div>
                         </div>
 
@@ -109,11 +126,13 @@
 
 
             <!-- education section -->
-            <div class="row">
-              <div class="col-sm-12">
+            <div class="row nowrap">
+              <div class="col-sm-1">
+                <a href="#exp"><img src="img/arrow-btn.png" alt="arrow button"></a></div>
+              <div class="col-sm-11">
 
                 <!-- <h2>EDUCATION</h2> -->
-                <h1>Education</h1>
+                <h1 id="edu">Education</h1>
     </div>
 
             </div>
@@ -136,11 +155,13 @@
             <br>
 
             <!-- web work experience -->
-            <div class="row">
-              <div class="col-sm-12">
+            <div class="row nowrap">
+              <div class="col-sm-1">
+                <a href="#cust"><img src="img/arrow-btn.png" alt="arrow button"></a></div>
+              <div class="col-sm-11">
 
                 <!-- <h2>WEB-RELATED WORK EXPERIENCE</h2> -->
-                <h1>Web-Related Work Experience</h1>
+                <h1 id="exp">Web-Related Work Experience</h1>
     </div>
 
             </div>
@@ -200,10 +221,12 @@
 
 
             <!-- customer service work -->
-            <div class="row">
-              <div class="col-sm-12">
+            <div class="row nowrap">
+              <div class="col-sm-1">
+                <a href="#to-top"><img src="img/arrow-btn.png" alt="arrow button"></a></div>
+              <div class="col-sm-11">
                 <!-- <h2>CUSTOMER SERVICE WORK EXPERIENCE</h2> -->
-                <h1>Customer Service Work Experience</h1>
+                <h1 id="cust">Customer Service Work Experience</h1>
               </div>
 
               </div>
@@ -285,7 +308,7 @@
     </section>
     <div class="row">
       <div class="col-sm-12">
-    <button class="to-top"><a href="#top">TOP</a></button></div>
+    <button id="to-top"><a href="#top">TOP</a></button></div>
     </div>
     <footer>
       <nav>
