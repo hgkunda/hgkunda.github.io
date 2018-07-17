@@ -296,6 +296,15 @@ body {
   padding: 0px 8px;
 }
 
+#projects .row h1 {
+  text-align: center;
+}
+
+.to-top {
+  /* background-color: green; */
+  padding: 1em 6em;
+}
+
 nav ul {
   display: flex;
   justify-content: flex-start;
