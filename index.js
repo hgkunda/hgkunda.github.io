@@ -16,6 +16,15 @@ $('.slickgala').slick({
   slidesToScroll: 2
 });
 
+// $('.slickdraw').slick({
+//   dots: true,
+//   infinite: true,
+//   speed: 300,
+//   slidesToShow: 1,
+//   adaptiveHeight: true
+// });
+
+
 $( function() {
     var icons = {
       header: "ui-icon-circle-arrow-e",
