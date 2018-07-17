@@ -292,6 +292,10 @@ body {
   margin: 0px 0px;
 }
 
+#my-main {
+  padding: 0px 8px;
+}
+
 nav ul {
   display: flex;
   justify-content: flex-start;
