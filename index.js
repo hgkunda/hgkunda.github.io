@@ -10,6 +10,12 @@ $('.slickautoplay').slick({
   autoplaySpeed: 5000,
 });
 
+$('.slickgala').slick({
+  infinite: true,
+  slidesToShow: 2,
+  slidesToScroll: 2
+});
+
 $( function() {
     var icons = {
       header: "ui-icon-circle-arrow-e",
