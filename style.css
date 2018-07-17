@@ -305,6 +305,19 @@ body {
   padding: 1em 6em;
 }
 
+.to-top a {
+  color: #222222;
+  font-weight: bold;
+}
+
+.to-top a:hover {
+  color: #444444;
+}
+
+.to-top a:visited {
+  color: #111111;
+}
+
 nav ul {
   display: flex;
   justify-content: flex-start;
