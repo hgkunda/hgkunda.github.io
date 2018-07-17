@@ -16,13 +16,6 @@ $('.slickgala').slick({
   slidesToScroll: 2,
 });
 
-// $('.slickdraw').slick({
-//   dots: true,
-//   infinite: true,
-//   speed: 300,
-//   slidesToShow: 1,
-//   adaptiveHeight: true
-// });
 
 
 $( function() {
