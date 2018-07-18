@@ -26,7 +26,7 @@ $('.slickautoplay').slick({
 //   focusOnSelect: true,
 // });
 
-let final = $('.slickfinal').slick({
+var final = $('.slickfinal').slick({
  slidesToShow: 1,
  slidesToScroll: 1,
  arrows: false,
@@ -34,7 +34,7 @@ let final = $('.slickfinal').slick({
  asNavFor: $('.slickgala')
 });
 
-let gala = $('.slickgala').slick({
+var gala = $('.slickgala').slick({
   infinite: true,
   slidesToShow: 2,
   slidesToScroll: 2,
