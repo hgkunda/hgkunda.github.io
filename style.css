@@ -238,13 +238,23 @@ footer {
   position: relative;
 }
 
-.caption {
+.slickcaro {
+  text-align: center;
+}
+
+.slick-slide img {
+  display: inline-block; 
+}
+
+.caption p {
   bottom: 0;
   min-height: 80px;
   left: 0;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   z-index: 2;
+  color: #FFFFFF;
+  background-color: #0C090A;
 }
 
   #initial-tag {
