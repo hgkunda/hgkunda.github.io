@@ -10,29 +10,30 @@ $('.slickautoplay').slick({
   autoplaySpeed: 5000,
 });
 
+$('.slickgala').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3
+  // variableWidth: true
+});
+
 // $('.slickgala').slick({
 //   infinite: true,
 //   slidesToShow: 2,
 //   slidesToScroll: 2,
+//   asNavFor: '.slickfinal',
+//   dots: true,
+//   centerMode: true,
+//   focusOnSelect: true
 // });
-
-$('.slickgala').slick({
-  infinite: true,
-  slidesToShow: 2,
-  slidesToScroll: 2,
-  asNavFor: '.slickfinal',
-  dots: true,
-  centerMode: true,
-  focusOnSelect: true
-});
-
-$('.slickfinal').slick({
- slidesToShow: 1,
- slidesToScroll: 1,
- arrows: false,
- fade: true,
- asNavFor: '.slickgala'
-});
+//
+// $('.slickfinal').slick({
+//  slidesToShow: 1,
+//  slidesToScroll: 1,
+//  arrows: false,
+//  fade: true,
+//  asNavFor: '.slickgala'
+// });
 
 
 $( function() {
