@@ -465,3 +465,7 @@ header img {
   font-size: 1.3em;
   /* font-family: "Overpass", sans-serif; */
 }
+.slickautoplay button.slick-prev.slick-arrow, .slickautoplay button.slick-next.slick-arrow {
+  color: #AAAAAA;
+  background-color: #0C090A;
+}
