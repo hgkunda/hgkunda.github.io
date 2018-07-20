@@ -61,20 +61,20 @@
     <h1>EXPERIMENT BELOW</h1>
 
     <div class="main">
-      <div class="slider slider-nav">
+      <div class="slider slider-unfinished">
         <div><img src="img/personal/art-cavs-photo.jpg" alt="First slide"></div>
         <div><img src="img/personal/art-cavs-painting.jpg" alt="Second slide"></div>
         <div><img src="img/personal/art-olympia-photo.JPG" alt="Third slide"></div>
         <div><img src="img/personal/art-olympia-painting.JPG" alt="Fourth slide"></div>
       </div>
-      <div class="slider slider-for">
+      <div class="slider slider-finished">
         <div><img src="img/personal/art-cavs-finished.jpg" alt="x"></div>
         <!-- <div><img src="img/personal/art-olympia-finished.JPG" alt="y"></div> -->
         <div><img src="img/personal/art-cavs-finished.JPG" alt="x"></div>
         <div><img src="img/personal/art-olympia-finished.JPG" alt="y"></div>
         <div><img src="img/personal/art-olympia-finished.JPG" alt="y"></div>
       </div>
-      <!-- <div class="slider slider-nav">
+      <!-- <div class="slider slider-unfinished">
         <div><img src="img/personal/art-cavs-photo.jpg" alt="First slide"></div>
         <div><img src="img/personal/art-cavs-painting.jpg" alt="s slide"></div>
         <div><img src="img/personal/art-olympia-photo.JPG" alt="Third slide"></div>
@@ -104,26 +104,26 @@
 <script src="slick-1.8.1/slick/slick.min.js"></script>
 <script src="index.js"></script>
 <script>
-$('.slider-for').slick({
+$('.slider-finished').slick({
 slidesToShow: 1,
 slidesToScroll: 1,
 arrows: false,
 // fade: true,
-asNavFor: '.slider-nav'
+asNavFor: '.slider-unfinished'
 });
-$('.slider-nav').slick({
+$('.slider-unfinished').slick({
 slidesToShow: 2,
 slidesToScroll: 2,
-asNavFor: '.slider-for',
+asNavFor: '.slider-finished',
 dots: true,
-focusOnSelect: true
+// focusOnSelect: true
 });
 
-$('a[data-slide]').click(function(e) {
-e.preventDefault();
-var slideno = $(this).data('slide');
-$('.slider-nav').slick('slickGoTo', slideno -1);
-});
+// $('a[data-slide]').click(function(e) {
+// e.preventDefault();
+// var slideno = $(this).data('slide');
+// $('.slider-unfinished').slick('slickGoTo', slideno -1);
+// });
 </script>
 
   </body>
