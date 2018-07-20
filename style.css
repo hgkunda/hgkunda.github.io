@@ -450,7 +450,7 @@ hr {
 	font-size:80%;
 	}
 
-header img {
+header img, footer img {
   /* background-color: #FFFFFF; */
   margin:5px;
 }
