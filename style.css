@@ -148,7 +148,7 @@ footer {
 }
 
 @media (max-width: 1200px) {
-#about .profile-slide, .hideaway-slide img {
+#about .profile-slide, .hideaway-slide img, #about h2 {
   display: none;
 }
 }
