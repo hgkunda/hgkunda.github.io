@@ -1,6 +1,7 @@
 * {
-  font-family: 'Suravaram', serif;
+  /* font-family: 'Suravaram', serif; */
   /* font-family: "Linden Hill", serif; */
+  font-family: 'Averia Serif Libre';
 }
 
 h1, h2, h3 {
@@ -8,8 +9,9 @@ h1, h2, h3 {
 }
 
 p {
-  font-family: 'Suravaram', serif;
+  /* font-family: 'Suravaram', serif; */
   /* font-family: "Linden Hill", serif; */
+  font-family: 'Averia Serif Libre';
   color: #0C090A;
 }
 
