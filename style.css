@@ -286,7 +286,7 @@ footer {
     background-color: #0C090A;
   }
 
-  .blk p, .blk h1 {
+  .blk p, .blk h1, .blk h2, .blk h3 {
     color: #FFF;
   }
 
