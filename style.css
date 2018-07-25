@@ -286,9 +286,11 @@ footer {
     background-color: #0C090A;
   }
 
-  .blk p {
+  .blk p, .blk h1 {
     color: #FFF;
   }
+
+
 
   .gry {
     /* background-color:	#595657; */
