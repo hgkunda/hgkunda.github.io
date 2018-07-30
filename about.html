@@ -17,15 +17,12 @@
     <style>
 
 .main {
-  /* font-family:Arial; */
+
   width:80%;
   display:block;
   margin: 0 auto;
 }
-.slick-dots li button::before {
-  /* font-size: 30px; */
-  /* margin: 5px; */
-}
+
 .main img {
   padding: 0px;
   max-width: 100%;
@@ -79,7 +76,6 @@ h3 {
       </div>
       <div class="slider slider-finished">
         <div><img src="img/personal/art-cavs-finished.jpg" alt="Finished painting"></div>
-        <!-- <div><img src="img/personal/art-olympia-finished.JPG" alt="y"></div> -->
         <div><img src="img/personal/art-cavs-finished.JPG" alt="Finished painting"></div>
         <div><img src="img/personal/art-olympia-finished.JPG" alt="Finished painting"></div>
         <div><img src="img/personal/art-olympia-finished.JPG" alt="Finished painting"></div>
@@ -128,28 +124,24 @@ The Importance and Necessity of Cinematic Jane Austen Adaptations in the Creatio
 <script src="slick-1.8.1/slick/slick.min.js"></script>
 <script src="index.js"></script>
 <script>
+
 $('.slider-finished').slick({
 slidesToShow: 1,
 slidesToScroll: 1,
 arrows: false,
 adaptiveHeight: true,
-// fade: true,
 asNavFor: '.slider-unfinished'
 });
+
 $('.slider-unfinished').slick({
 slidesToShow: 2,
 slidesToScroll: 2,
 asNavFor: '.slider-finished',
 dots: true,
-// focusOnSelect: true
-// arrows: false,
+
 });
 
-// $('a[data-slide]').click(function(e) {
-// e.preventDefault();
-// var slideno = $(this).data('slide');
-// $('.slider-unfinished').slick('slickGoTo', slideno -1);
-// });
+
 </script>
 
   </body>
