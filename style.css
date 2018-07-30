@@ -170,7 +170,7 @@ footer {
     }
 @media (max-width: 400px) {
   .col-sm-12 {
-    padding-right: 0px;
+    /* padding-right: 0px; */
     /* background-color: #fff; */
   }
 
