@@ -1,17 +1,17 @@
 * {
   /* font-family: 'Suravaram', serif; */
   /* font-family: "Linden Hill", serif; */
-  font-family: 'Averia Serif Libre';
+  font-family: 'Averia Serif Libre', 'Garamond', serif;
 }
 
 h1, h2, h3 {
-  font-family: "Overpass", sans-serif;
+  font-family: "Overpass", Arial, sans-serif;
 }
 
 p {
   /* font-family: 'Suravaram', serif; */
   /* font-family: "Linden Hill", serif; */
-  font-family: 'Averia Serif Libre';
+  font-family: 'Averia Serif Libre', 'Garamond', serif;
   color: #0C090A;
 }
 
@@ -205,7 +205,7 @@ footer {
   }
 
   .dev, .des {
-    font-family: 'Taviraj', serif;
+    font-family: 'Taviraj', 'Garamond', serif;
     font-size: 4em;
   }
 
@@ -343,7 +343,7 @@ nav ul {
 
 nav a {
   color: #FFFFFF;
-  font-family: "Overpass", sans-serif;
+  font-family: "Overpass", Arial, sans-serif;
   text-decoration: none;
 }
 
@@ -403,7 +403,7 @@ p {
 	margin: 0.5em 0;
 	} */
 #projects .color-table td p, #projects .color-table th p {
-  font-family: "Overpass", sans-serif;
+  font-family: "Overpass", Arial, sans-serif;
   font-size: 8px;
 }
 .color-table {
