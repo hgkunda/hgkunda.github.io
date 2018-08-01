@@ -47,54 +47,6 @@ footer {
   background-color: #0C090A;
 }
 
-/* my colors palette 1 */
-.dark-salmon {
-  color: #E9A666;
-  background-color: #E9A666;
-}
-
-.dark-olive-grn {
-  color: #4D5824;
-}
-
-.light-steel-blu {
-  color: #9DC15D;
-}
-
-.powder-blu {
-  color: #CBE5EF;
-}
-
-.dark-khaki {
-  color: #A09444;
-}
-
-/* my colors palette 2 */
-.old-rose {
-  color: #A6464E;
-  background-color: #A6464E;
-}
-
-/* .black {
-  color: #0C090A;
-  background-color: #0C090A;
-} */
-
-.tan {
-  color: #CFAEA1;
-  background-color: #CFAEA1;
-}
-
-.gray {
-  color: #8D916C;
-  background-color: #8D916C;
-}
-
-.dark-olive-green {
-  color: #705142;
-  background-color: #705142;
-}
-
 
 /* SLIDER PROF */
 @media (min-width: 1200px) {
