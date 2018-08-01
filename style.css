@@ -62,6 +62,10 @@ footer {
   background-color: #0C090A;
 }
 
+footer .copy {
+  color: #8D916C;
+}
+
 nav ul {
   display: flex;
   justify-content: flex-start;
