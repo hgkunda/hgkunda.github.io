@@ -323,6 +323,23 @@ nav a:visited {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.blk a {
+  color: #FFF;
+}
+
+.blk a {
+  font-weight: bold;
+}
+
+.blk a:hover {
+  color: #DDDDDD;
+}
+
+.blk a:visited {
+  color: #CCCCCC;
+}
+
 /* NOT USED */
 
 /* #projects .color-table td p, #projects .color-table th p {
